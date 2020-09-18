@@ -2,7 +2,7 @@
 
 public class URl化 {
     public static void main(String[] args) {
-        String s = "  you aaa   vf      ";
+        String s = "  you 数组拆分   vf      ";
         System.out.println(replaceSpaces1(s,14));
     }
 

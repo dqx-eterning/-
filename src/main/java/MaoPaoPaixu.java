@@ -4,7 +4,8 @@ public class MaoPaoPaixu {
         int[] array = {23,12,11,1,56,78};
         //int[] ints = bubbleSort(array);
         //int[] ints = xuanzheSort(array);
-        int[] ints = charuSort(array);
+        //int[] ints = charuSort(array);
+        int[] ints = charu1Sort(array);
         for (int anInt : ints) {
             System.out.println(anInt);
         }
@@ -68,10 +69,23 @@ public class MaoPaoPaixu {
                     array[j] = temp;
                 }else{
                     break;
-                }
+                 }
                 }
             }
         return  array;
+    }
+
+    public static int[] charu1Sort(int[] array){
+        for (int i = 0; i < array.length-1; i++) {
+            int current = array[i+1];
+            int preIndex = i;
+            while (preIndex >= 0 && array[preIndex] > current){
+                array[preIndex+1] = array[preIndex];
+                preIndex--;
+            }
+            array[preIndex+1] = current;
+        }
+        return array;
     }
 
 }

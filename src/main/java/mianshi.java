@@ -4,7 +4,8 @@ import java.util.ArrayList;
 
 public class mianshi {
     public static void main(String[] args) {
-        String s = "GGBBG";
+        //String s = "GGBBG";
+        System.out.println("|T|ES|T".split("|").length);
 
     }
     public static ArrayList<ArrayList<Integer>> binaryTreeScan (int[] input) {

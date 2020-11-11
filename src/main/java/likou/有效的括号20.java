@@ -3,6 +3,10 @@ package likou;
 import java.util.Stack;
 
 public class 有效的括号20 {
+    //灵活运用栈
+    public static void main(String[] args) {
+
+    }
     public boolean isValid(String s) {
         if(s.length()%2==0){
             Stack<Character> stack=new Stack<>();

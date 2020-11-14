@@ -6,7 +6,7 @@ public class 删除排序数组中的重复项26 {
         System.out.println(removeDuplicates(num));
     }
     public static int removeDuplicates(int[] nums) {
-        // 使用双指针
+        // 使用双指针,借助原数组，未开辟新空间
         if(nums==null || nums.length == 1){
             return nums.length;
         }

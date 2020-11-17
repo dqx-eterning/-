@@ -5,5 +5,6 @@ public class 偷懒1 {
         boolean b = "hello" instanceof Object;
         System.out.println(b);
         ///.....有事
+        ///.....有事
     }
 }

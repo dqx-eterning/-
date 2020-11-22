@@ -6,5 +6,6 @@ public class 偷懒1 {
         System.out.println(b);
         ///.....有事
         ///.....有事
+        //测试
     }
 }
